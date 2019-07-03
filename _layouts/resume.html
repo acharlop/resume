@@ -59,8 +59,14 @@
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
+          {% if job.multiplejobs %}
+            {% for onejob in job.jobs %}
+              {% include job.html onejob=onejob %}
+            {% endfor %}
+          {% else %}
+            {% assign onejob = job %}
+            {% include job.html onejob=onejob %}
+          {% endif %}
         </div><!-- end of resume-item -->
         {% endfor %}
 

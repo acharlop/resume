@@ -1,0 +1,12 @@
+<div>
+  <h4 class="resume-item-details" itemprop="description">
+    {{ onejob.position }} &bull; {{ onejob.start }} &mdash; {{ onejob.end }}
+  </h4>
+  <p class="resume-item-copy">{{ onejob.summary }}
+    <ul class="resume-item-list">
+      {% for accomplishment in onejob.accomplishments %}
+      <li>{{ accomplishment }}</li>
+      {% endfor %}
+    </ul>
+  </p>
+</div>
