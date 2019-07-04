@@ -51,25 +51,10 @@
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
-
         <header class="section-header">
           <h2>Experience</h2>
         </header>
-
-        {% for job in site.data.experience %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          {% if job.multiplejobs %}
-            {% for onejob in job.jobs %}
-              {% include job.html onejob=onejob %}
-            {% endfor %}
-          {% else %}
-            {% assign onejob = job %}
-            {% include job.html onejob=onejob %}
-          {% endif %}
-        </div><!-- end of resume-item -->
-        {% endfor %}
-
+        {% include jobs.html %}
       </section>
       <!-- end Experience -->
       {% endif %}

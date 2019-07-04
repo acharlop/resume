@@ -1,41 +1,62 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  multiplejobs: true
-  jobs:
-    - position: VP of Global Communications
-      start: Oct, 2013
-      end: Present
-      summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points
+# IDT
+- company: Net2phone - a division of IDT (Acquired LiveNinja)
+  location: Remote
+  duration: February 2017 &mdash; Present
+  summary: B2B communications company. Hired after acquisition to merge platforms, standardize coding practices, and develop new features with remote teams.
+  positions:
+    - title: Lead Front-End Engineer
+      technologies: Angular
+      duration: 2019
       accomplishments: 
-        - A project you are proud of
-        - Another awesome project
-        - or a team or department you worked with
+        - Led creation of shared component library for use across our multiple products
+        - Implemented and maintained multiple feature pages with a focus on optimization and unit testing
+        - Tech debt reduction; Upgrade from Angular 2 to Angular 7 and reduce initial application load time by 50%
 
-    - position: Head of Communications
-      start: Oct, 2012
-      end: Oct, 2013
-      summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points
+    - title: Mobile Engineer
+      technologies: React Native, node-plop
+      duration: 2018
       accomplishments: 
-        - A project you are proud of
-        - Another awesome project
-        - or a team or department you worked with
+        - Built live chat and phone calling features
+        - Standardized code generators
+        - First public release
+    
+    - title: Back-End Engineer
+      technologies: GoLang, Dart
+      duration: 2017
+      accomplishments: 
+        - Led reorganization of microservices code
+        - Focus on scalability and unit testing
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  start: Jun, 2010
-  end: Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
-
-
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  start: Jun, 2008
-  end: May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# Takt
+- company: Takt Digital
+  title: Software Engineer
+  duration: May 2016 &mdash; January 2017
+  location: Miami, FL
+  summary: Media focused software development company. Hired as first software developer, led dev team as it grew.
   accomplishments: 
-        - A project you are proud of
-        - Another awesome project
-        - or a team or department you worked with
+    - Sole developer for streamapi.co, a streaming media workflow engine (2nd round Y Combinator).
+    - Tech Lead for <a target="_blank" href="https://www.aapryl.com/">Aapryl</a>, a fintech dashboard in Angular 2. Hired team, and led all API & front-end development
+
+
+# Techno Tech
+- company: Techno Tech LLC
+  title: Owner
+  duration: 2013 &mdash; Present
+  location: New York, NY &amp; Miami, FL
+  summary: Technology consultant firm providing CTO as a service complete software and hardware solutions.
+  accomplishments: 
+    - React webapps, React Native mobile apps, custom software, websites, and html email templating engine
+    - IT services ranging from infrastructure planning and build-out to long term support
+
+# Hanweck
+- company: Hanweck Associates
+  title: IT Technician
+  duration:  November 2011 &mdash October 2013
+  location: New York, NY
+  summary: Hired as IT lead to manage 150+ servers and 40+ GPUs in 3 states.
+  accomplishments:
+    - Responsible for monitoring, maintaining, and supporting all company hardware.
+    - Technologies - Bash, Perl, Nvidia, CentOS, Cisco, VMware, Windows Domain, Acronis, Supermicro, PXE, SQL.
+
+

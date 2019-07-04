@@ -1,0 +1,8 @@
+<!-- loop through each job -->
+{% for job in site.data.experience %}
+  {% if job.positions %}
+    {% include experience-multiple.html job=job %}
+  {% else %}
+    {% include experience-single.html job=job %}
+  {% endif %}
+{% endfor %}

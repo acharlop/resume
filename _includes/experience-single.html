@@ -1,0 +1,15 @@
+<div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+  <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+  <div>
+    <h4 class="resume-item-details flex-row" itemprop="details">
+      <span>{{ job.title }}</span>
+      <span>{{ job.location }} &bull; {{ job.duration }}</span>
+    </h4>
+    <p class="resume-item-copy">{{ job.summary }}</p>
+    <ul class="resume-item-list">
+      {% for accomplishment in job.accomplishments %}
+      <li>{{ accomplishment }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
